@@ -1,6 +1,10 @@
 
 [flake8]
-exclude = 
+
+ignore =
+ E501
+
+exclude =
   migrations,
   __pycache__,
   manage.py,
